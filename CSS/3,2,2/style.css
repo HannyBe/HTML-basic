@@ -1,0 +1,36 @@
+body{
+    background-color: blanchedalmond;
+    font: arial;
+}
+
+p{
+    color: black;
+    font-size: 20px;
+}
+
+h1,h2{
+    color: blue;
+    text-align: center;
+}
+
+div{
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+
+.info{
+    color: brown;
+}
+.warning{
+    color: red;
+    background-color: white;
+    width: 200px;
+
+}
+
+p:last-child{
+    color: aqua;
+}
