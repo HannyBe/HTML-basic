@@ -1,0 +1,28 @@
+h2{
+    backround: blue
+}
+div {
+    background-color: rgba(0, 195, 255, 0.568);
+}
+p {
+    background: magenta
+}
+ul {
+    background: greenyellow;
+}
+
+a, button, strong {
+    background: red;
+}
+
+.d1 {
+    border: 2px solid black;
+    background: pink ;
+    width: 50%
+}
+.b1 {
+    display: block;
+    background: burlywood;
+    width: 180px;
+    height: 80px;
+}
