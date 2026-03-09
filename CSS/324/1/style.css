@@ -1,3 +1,6 @@
+body {
+    font-family: "Noto Serif JP", serif;
+}
 h2{
     backround: blue
 }
@@ -25,4 +28,54 @@ a, button, strong {
     background: burlywood;
     width: 180px;
     height: 80px;
+}
+
+.example {
+    width: 200px;
+    height: 200px;
+    background: pink;
+    color: aliceblue;
+    display: grid;
+    place-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.left {
+    text-align: left;
+}
+.center {
+    text-align: center;
+}
+.right {
+    text-align: right;
+
+}
+.justify{
+    text-align: justify;
+    text-transform: capitalize;
+    background-color: white;
+}
+a {
+    text-decoration: none;
+    color: black;
+
+} 
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+p {
+    font-size: 1rem;
+}
+
+.centerbox {
+    width: 50%;
+    height: 50px;
+    margin: 0 auto;
+    place-items: center;
 }
