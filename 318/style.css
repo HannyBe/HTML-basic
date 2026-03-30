@@ -1,0 +1,70 @@
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.karta {
+    background: white;
+    padding: 30px;
+    width: 300px;
+    border-radius: 15px;
+    text-align: center;
+
+    box-shadow: 0 4px 10px
+}
+
+.profil {
+    width: 100px;
+    height: 100px;
+    background-color: turquoise;
+    color: white;
+    border-radius: 50%;
+    display: grid;
+    align-items: center;
+    font-size: 32px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0 5px;
+}
+
+h2 {
+    font-size: 16px;
+    color: gray;
+    bottom: 15px;
+}
+
+p {
+    font-size: 14px;
+    text-align: left;
+    bottom: 20px;
+}
+
+.butons {
+    display: inline-block;
+    background: #eee;
+    padding: 5px 10px;
+    margin: 3px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none; 
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
